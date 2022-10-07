@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="divdeCima">
+        <div class="insiraitem">
+            <span>
+                Inserir item na lista:
+            </span>
+            <input class="inputInsiraitem" id="insiraItem"/>
+        </div>
+        <div>
+            <button class="buttondeInserir" onclick="InserirElemento()">
+                Inserir
+            </button>
+        </div>
+    </div>
+    <div class="divdeBaixo">
+        <div class="lista">
+            <span class="tituloLista">
+                Lista de compras
+            </span>
+            <div class="produtos" id="itens">
+                <!--Aqui acontece a function montarListaCompras no js-->
+            </div>
+       </div>
+        <div class="preco" id="preco">
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
